@@ -76,7 +76,14 @@ export const uniModals: Model[] = [
     }
 ]
 
-export const textGenModels: Model[] = [{
+export const textGenModels: Model[] = [
+{
+    id: '@cf/deepseek-ai/deepseek-r1-distill-qwen-32b',
+    name: 'deepseek-r1-distill-qwen-32b',
+    provider: 'deepseek-ai',
+    type: 'chat'
+},
+{
     id: 'gpt-3.5-turbo',
     name: 'ChatGPT-3.5-turbo',
     provider: 'openai',
@@ -93,6 +100,11 @@ export const textGenModels: Model[] = [{
     provider: 'workers-ai',
     type: 'chat'
 }, {
+    id: '@cf/google/gemma-3-12b-it',
+    name: 'gemma-3-12b-it',
+    provider: 'workers-ai',
+    type: 'chat'
+},{
     id: '@cf/google/gemma-7b-it-lora',
     name: 'gemma-7b-it-lora',
     provider: 'workers-ai',
