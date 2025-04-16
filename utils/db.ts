@@ -80,7 +80,7 @@ export const textGenModels: Model[] = [
 {
     id: '@cf/deepseek-ai/deepseek-r1-distill-qwen-32b',
     name: 'deepseek-r1-distill-qwen-32b',
-    provider: 'deepseek-ai',
+    provider: 'workers-ai',
     type: 'chat'
 },
 {
